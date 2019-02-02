@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [VTiger Test Case Suite]]">
+  <listeners>
+    <listener class-name="com.vTiger.ExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Vtiger Test(failed)(failed)">
+    <classes>
+      <class name="com.vTiger.Tests.LoginPageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vTiger.Tests.LoginPageTest -->
+      <class name="com.vTiger.Tests.DashboardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vTiger.Tests.DashboardPageTest -->
+    </classes>
+  </test> <!-- Vtiger Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [VTiger Test Case Suite]] -->

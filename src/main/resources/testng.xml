@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VTiger Test Case Suite">
+		<listeners>
+			<listener class-name="com.vTiger.ExtentReport.ExtentReporterNG"/>
+		</listeners>
+	<test name="Vtiger Test">
+		<classes>
+			<class name="com.vTiger.Tests.LoginPageTest"></class>
+			<class name="com.vTiger.Tests.DashboardPageTest"></class>
+		</classes>
+	</test>
+</suite>
+
